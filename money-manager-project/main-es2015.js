@@ -1396,6 +1396,13 @@ class ExpensesComponent {
         }, (err) => console.error(err));
     }
     remove(expenses) {
+        const monthExpensesTotal = {
+            month: this.dateService.date$.value.format('MMMM-YYYY'),
+            amount: this.monthExpensesTotalAmount
+        };
+        this.removeMonthExpensesTotal(monthExpensesTotal);
+        monthExpensesTotal.amount -= expenses.expenses.amount;
+        this.createMonthExpensesTotal(monthExpensesTotal);
         this._expensesService.removeExpenses(expenses).subscribe(() => {
             this.expensesList = this.expensesList.filter((value) => value.id !== expenses.id);
         }, (err) => console.error(err));
@@ -2035,7 +2042,7 @@ class MonthExpensesTotalService {
     }
     removeMonthExpensesTotal(monthExpensesTotal) {
         return this._http
-            .delete(`${MonthExpensesTotalService.url}/${monthExpensesTotal.month}/${monthExpensesTotal.id}.json`);
+            .delete(`${MonthExpensesTotalService.url}/${monthExpensesTotal.month}/.json`);
     }
 }
 MonthExpensesTotalService.url = 'https://money-manager-project.firebaseio.com/monthExpensesTotal';

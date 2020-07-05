@@ -2433,6 +2433,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function remove(expenses) {
           var _this6 = this;
 
+          var monthExpensesTotal = {
+            month: this.dateService.date$.value.format('MMMM-YYYY'),
+            amount: this.monthExpensesTotalAmount
+          };
+          this.removeMonthExpensesTotal(monthExpensesTotal);
+          monthExpensesTotal.amount -= expenses.expenses.amount;
+          this.createMonthExpensesTotal(monthExpensesTotal);
+
           this._expensesService.removeExpenses(expenses).subscribe(function () {
             _this6.expensesList = _this6.expensesList.filter(function (value) {
               return value.id !== expenses.id;
@@ -3594,7 +3602,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "removeMonthExpensesTotal",
         value: function removeMonthExpensesTotal(monthExpensesTotal) {
-          return this._http["delete"]("".concat(MonthExpensesTotalService.url, "/").concat(monthExpensesTotal.month, "/").concat(monthExpensesTotal.id, ".json"));
+          return this._http["delete"]("".concat(MonthExpensesTotalService.url, "/").concat(monthExpensesTotal.month, "/.json"));
         }
       }]);
 
