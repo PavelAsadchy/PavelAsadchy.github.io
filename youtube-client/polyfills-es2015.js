@@ -3033,7 +3033,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\Training RS School Angular\youtube-client\src\polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! E:\Training RS School Angular\youtube-client-angular\youtube-client\src\polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })
