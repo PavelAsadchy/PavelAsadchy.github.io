@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fc090383.chunk.css",
+    "main.js": "/static/js/main.a3b6278d.chunk.js",
+    "main.js.map": "/static/js/main.a3b6278d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5da19435.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5da19435.js.map",
+    "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
+    "static/js/2.0b1ae012.chunk.js": "/static/js/2.0b1ae012.chunk.js",
+    "static/js/2.0b1ae012.chunk.js.map": "/static/js/2.0b1ae012.chunk.js.map",
+    "static/js/3.e5e69926.chunk.js": "/static/js/3.e5e69926.chunk.js",
+    "static/js/3.e5e69926.chunk.js.map": "/static/js/3.e5e69926.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.fc090383.chunk.css.map": "/static/css/main.fc090383.chunk.css.map",
+    "static/js/2.0b1ae012.chunk.js.LICENSE.txt": "/static/js/2.0b1ae012.chunk.js.LICENSE.txt",
+    "static/js/3.e5e69926.chunk.js.LICENSE.txt": "/static/js/3.e5e69926.chunk.js.LICENSE.txt",
+    "static/media/BlueScull.ac944ebd.png": "/static/media/BlueScull.ac944ebd.png",
+    "static/media/CreepyToy.cf17cfea.png": "/static/media/CreepyToy.cf17cfea.png",
+    "static/media/Franc.9b2bb64d.png": "/static/media/Franc.9b2bb64d.png",
+    "static/media/FriendlyMonster.2f747a27.png": "/static/media/FriendlyMonster.2f747a27.png",
+    "static/media/KingScull.e72a1570.png": "/static/media/KingScull.e72a1570.png",
+    "static/media/LaMuerte.2693740f.png": "/static/media/LaMuerte.2693740f.png",
+    "static/media/MexicanScull.1736cac2.png": "/static/media/MexicanScull.1736cac2.png",
+    "static/media/Portishead - Glory Box (minus).c2197c2a.mp3": "/static/media/Portishead - Glory Box (minus).c2197c2a.mp3",
+    "static/media/Pumpkin.b7b38c50.png": "/static/media/Pumpkin.b7b38c50.png",
+    "static/media/PumpkinAngry.f686640b.png": "/static/media/PumpkinAngry.f686640b.png",
+    "static/media/Skeleton.08a54eec.png": "/static/media/Skeleton.08a54eec.png",
+    "static/media/Vampire.5f71a27b.png": "/static/media/Vampire.5f71a27b.png",
+    "static/media/Zombie.9d70c3b9.png": "/static/media/Zombie.9d70c3b9.png",
+    "static/media/ZombieKid.82c76aef.png": "/static/media/ZombieKid.82c76aef.png",
+    "static/media/App.css": "/static/media/card-back.addefb7c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5da19435.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.0b1ae012.chunk.js",
+    "static/css/main.fc090383.chunk.css",
+    "static/js/main.a3b6278d.chunk.js"
+  ]
+}
